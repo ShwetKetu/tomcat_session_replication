@@ -1,0 +1,154 @@
+08-Jul-2022 07:24:28.376 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Jul-2022 07:24:28.377 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:24:28.393 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:24:28.396 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Jul-2022 07:24:28.397 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve stopped
+08-Jul-2022 07:24:28.432 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/examples] expiring sessions upon shutdown
+08-Jul-2022 07:24:28.570 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:24:28.576 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:24:28.587 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:24:28.588 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:24:32.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+08-Jul-2022 07:24:32.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+08-Jul-2022 07:24:32.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+08-Jul-2022 07:24:32.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Jul-2022 07:24:32.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-372.9.1.el8.x86_64
+08-Jul-2022 07:24:32.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Jul-2022 07:24:32.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/jdk1.8/jre
+08-Jul-2022 07:24:32.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+08-Jul-2022 07:24:32.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jul-2022 07:24:32.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat_server2
+08-Jul-2022 07:24:32.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat_server2
+08-Jul-2022 07:24:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat_server2/conf/logging.properties
+08-Jul-2022 07:24:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2022 07:24:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2022 07:24:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2022 07:24:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jul-2022 07:24:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jul-2022 07:24:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat_server2
+08-Jul-2022 07:24:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat_server2
+08-Jul-2022 07:24:32.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat_server2/temp
+08-Jul-2022 07:24:32.813 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Jul-2022 07:24:33.401 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:24:33.440 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:24:33.441 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1265] milliseconds
+08-Jul-2022 07:24:33.514 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jul-2022 07:24:33.515 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 07:24:33.518 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+08-Jul-2022 07:24:33.600 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/172.31.17.106:4000]
+08-Jul-2022 07:24:33.614 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+08-Jul-2022 07:24:33.622 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+08-Jul-2022 07:24:34.622 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+08-Jul-2022 07:24:34.628 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+08-Jul-2022 07:24:35.628 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+08-Jul-2022 07:24:35.668 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat_server2/webapps/sample.war]
+08-Jul-2022 07:24:36.244 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:24:36.338 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat_server2/webapps/sample.war] has finished in [669] ms
+08-Jul-2022 07:24:36.338 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat_server2/webapps/Calendar_1.0.war]
+08-Jul-2022 07:24:36.578 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:24:36.581 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat_server2/webapps/Calendar_1.0.war] has finished in [242] ms
+08-Jul-2022 07:24:36.581 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat_server2/webapps/jsp_app.war]
+08-Jul-2022 07:24:36.676 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:24:36.801 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat_server2/webapps/jsp_app.war] has finished in [219] ms
+08-Jul-2022 07:24:36.801 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat_server2/webapps/7ox97mtr.war]
+08-Jul-2022 07:24:36.884 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:24:36.886 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat_server2/webapps/7ox97mtr.war] has finished in [84] ms
+08-Jul-2022 07:24:36.886 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/ROOT]
+08-Jul-2022 07:24:36.988 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:24:36.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/ROOT] has finished in [103] ms
+08-Jul-2022 07:24:36.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/docs]
+08-Jul-2022 07:24:37.093 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:24:37.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/docs] has finished in [104] ms
+08-Jul-2022 07:24:37.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/examples]
+08-Jul-2022 07:24:37.471 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:24:37.555 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/examples] to cluster element [Engine] with name [Catalina]
+08-Jul-2022 07:24:37.556 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/examples]
+08-Jul-2022 07:24:37.556 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/examples]: skipping state transfer. No members active in cluster group.
+08-Jul-2022 07:24:37.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/examples] has finished in [468] ms
+08-Jul-2022 07:24:37.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/host-manager]
+08-Jul-2022 07:24:37.654 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:24:37.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/host-manager] has finished in [101] ms
+08-Jul-2022 07:24:37.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/manager]
+08-Jul-2022 07:24:37.744 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:24:37.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/manager] has finished in [97] ms
+08-Jul-2022 07:24:37.769 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+08-Jul-2022 07:24:37.772 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:24:37.878 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:24:37.882 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4440] milliseconds
+08-Jul-2022 07:27:20.830 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Jul-2022 07:27:20.830 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:27:20.842 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:27:20.845 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+08-Jul-2022 07:27:20.845 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.stopInternal JvmRouteBinderValve stopped
+08-Jul-2022 07:27:20.874 INFO [main] org.apache.catalina.ha.session.DeltaManager.stopInternal Manager [localhost#/examples] expiring sessions upon shutdown
+08-Jul-2022 07:27:21.020 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:27:21.024 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:27:21.035 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:27:21.036 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:27:32.585 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.64
+08-Jul-2022 07:27:32.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 2 2022 19:08:46 UTC
+08-Jul-2022 07:27:32.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.64.0
+08-Jul-2022 07:27:32.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Jul-2022 07:27:32.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.18.0-372.9.1.el8.x86_64
+08-Jul-2022 07:27:32.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Jul-2022 07:27:32.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/jdk1.8/jre
+08-Jul-2022 07:27:32.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+08-Jul-2022 07:27:32.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Jul-2022 07:27:32.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat_server2
+08-Jul-2022 07:27:32.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat_server2
+08-Jul-2022 07:27:32.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat_server2/conf/logging.properties
+08-Jul-2022 07:27:32.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Jul-2022 07:27:32.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Jul-2022 07:27:32.601 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Jul-2022 07:27:32.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+08-Jul-2022 07:27:32.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+08-Jul-2022 07:27:32.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat_server2
+08-Jul-2022 07:27:32.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat_server2
+08-Jul-2022 07:27:32.602 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat_server2/temp
+08-Jul-2022 07:27:32.603 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Jul-2022 07:27:33.198 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:27:33.231 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:27:33.254 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1319] milliseconds
+08-Jul-2022 07:27:33.318 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+08-Jul-2022 07:27:33.318 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.64]
+08-Jul-2022 07:27:33.335 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+08-Jul-2022 07:27:33.376 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/172.31.17.106:4000]
+08-Jul-2022 07:27:33.402 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+08-Jul-2022 07:27:33.410 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+08-Jul-2022 07:27:34.410 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+08-Jul-2022 07:27:34.416 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+08-Jul-2022 07:27:35.416 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+08-Jul-2022 07:27:35.471 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat_server2/webapps/sample.war]
+08-Jul-2022 07:27:36.067 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:27:36.170 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat_server2/webapps/sample.war] has finished in [698] ms
+08-Jul-2022 07:27:36.170 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat_server2/webapps/Calendar_1.0.war]
+08-Jul-2022 07:27:36.428 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:27:36.434 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat_server2/webapps/Calendar_1.0.war] has finished in [264] ms
+08-Jul-2022 07:27:36.434 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat_server2/webapps/jsp_app.war]
+08-Jul-2022 07:27:36.534 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:27:36.652 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat_server2/webapps/jsp_app.war] has finished in [218] ms
+08-Jul-2022 07:27:36.652 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat_server2/webapps/7ox97mtr.war]
+08-Jul-2022 07:27:36.740 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:27:36.742 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat_server2/webapps/7ox97mtr.war] has finished in [90] ms
+08-Jul-2022 07:27:36.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/ROOT]
+08-Jul-2022 07:27:36.848 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:27:36.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/ROOT] has finished in [106] ms
+08-Jul-2022 07:27:36.850 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/docs]
+08-Jul-2022 07:27:36.942 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:27:36.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/docs] has finished in [93] ms
+08-Jul-2022 07:27:36.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/examples]
+08-Jul-2022 07:27:37.367 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:27:37.449 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Register manager [localhost#/examples] to cluster element [Engine] with name [Catalina]
+08-Jul-2022 07:27:37.449 INFO [main] org.apache.catalina.ha.session.DeltaManager.startInternal Starting clustering manager at [localhost#/examples]
+08-Jul-2022 07:27:37.449 INFO [main] org.apache.catalina.ha.session.DeltaManager.getAllClusterSessions Manager [localhost#/examples]: skipping state transfer. No members active in cluster group.
+08-Jul-2022 07:27:37.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/examples] has finished in [511] ms
+08-Jul-2022 07:27:37.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/host-manager]
+08-Jul-2022 07:27:37.540 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:27:37.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/host-manager] has finished in [87] ms
+08-Jul-2022 07:27:37.543 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat_server2/webapps/manager]
+08-Jul-2022 07:27:37.634 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08-Jul-2022 07:27:37.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat_server2/webapps/manager] has finished in [93] ms
+08-Jul-2022 07:27:37.636 INFO [main] org.apache.catalina.ha.session.JvmRouteBinderValve.startInternal JvmRouteBinderValve started
+08-Jul-2022 07:27:37.638 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Jul-2022 07:27:37.751 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-0.0.0.0-8009"]
+08-Jul-2022 07:27:37.756 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4501] milliseconds
